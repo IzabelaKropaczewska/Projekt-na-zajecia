@@ -1,0 +1,7 @@
+import random
+def random_by_4(number):
+  prints = 0 #numebr of prints
+  while prints < number:
+      chosen = random.randint(0,100)
+      if chosen %4 = 0:
+        print(chosen)
